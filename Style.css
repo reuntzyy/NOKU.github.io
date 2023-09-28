@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(199, 207, 208);
+    margin: 0px 50px;
+}
+.head{
+    background-image:url('coffee logo.jpg');
+    height: 300px;
+    width:100%;
+    color:rgb(235, 55, 55);
+    text-align: center;
+}
+.nav{
+    overflow: hidden;
+    background-color:rgb(235, 116, 32);
+    width:100% ;
+}
+.nav a{
+    float: left;
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 14px 20px;
+}
+.nav a:hover{
+    background-color: rgb(197, 159, 123);
+    color:black;
+}

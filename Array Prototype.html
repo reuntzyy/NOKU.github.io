@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Array Prototype</title>
+    </head>
+    <h1>Code Prototype</h1>
+<script>
+    function print(){
+        document.write("<ol>");
+        for(i=0; i<this.length; i++){
+            document.write("<li>" + this[i]+"<br/>");
+        }
+        document.write("</ol>");
+    }
+    Array.prototype.print=print;
+    var nme =new Array("Kongkea","vanna","soriya");
+    nme.print();
+
+    var age=new Array("19","20","21");
+    age.print();
+</script>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nesting Loop</title>
+    </head>
+    <h1>Code Loop</h1>
+    <body>
+        <script>
+            document.write("<table border=1><tr>");
+                document.write("confficient")
+            for(var x=1; x<=9; x++){
+                document.write("<td>");
+                for(y=1;y<=10;y++){
+                    document.write(x + "*" + y + "=" + x*y);
+                    document.write("<br/>");
+                }
+                document.write("</td>");
+            }
+            document.write("</tr></table>");
+        </script>
+    </body>
+</html>

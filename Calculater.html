@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Calculater</title>
+        <link rel = "stylesheet"type ="text/css" href="styleform.css" >
+        <script>
+            function cals(result){
+                frm.txtResult.value= frm.txtResult.value + result;
+            }
+        </script>
+    </head>
+    <body>
+        <h2> Calculater </h2>
+        <div class="contianer">
+            <form name = "frm">
+                <div class ="row">
+                    result : <br/>
+                    <input type="text" name="txtResult">
+                    </div>
+                    
+                    <div class="row">
+                        <input type="button" name="b1" value="1" onclick="cals (b1.value)">
+                        <input type="button" name="b2" value="2" onclick="cals (b2.value)">
+                        <input type="button" name="b3" value="3" onclick="cals (b3.value)">
+                        <input type="button" name="sum" value="+" onclick="cals (sum.value)">
+                    </div>
+
+                    <div class="row">
+                        <input type="button" name="b4" value="4" onclick="cals (b4.value)">
+                        <input type="button" name="b5" value="5" onclick="cals (b5.value)">
+                        <input type="button" name="b6" value="6" onclick="cals (b6.value)">
+                        <input type="button" name="mul" value="*" onclick="cals (mul.value)">
+                    </div>
+
+                    <div class="row">
+                        <input type="button" name="b7" value="7" onclick="cals (b7.value)">
+                        <input type="button" name="b8" value="8" onclick="cals (b8.value)">
+                        <input type="button" name="b9" value="9" onclick="cals (b9.value)">
+                        <input type="button" name="dev" value="/" onclick="cals (dev.value)">
+                    </div>
+
+
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

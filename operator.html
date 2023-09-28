@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>operator</title>
+    </head>
+    <body>
+        <p1>TIME</p1>
+        <script>
+            var day = new Date();
+            var h=day.getHours();
+            var m=day.getMinutes();
+            var s=day.getSeconds();
+            var ampm=h<12 ? "AM" : "PM";
+            document.write(h + ":" + m + ":" + s + ampm);
+        </script>
+    </body>
+</html>
